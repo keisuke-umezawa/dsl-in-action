@@ -19,80 +19,80 @@ namespace chapter3scalar {
         
         public Account(String number, String firstName)
         {
-            number_ = number;
-            firstName_ = firstName;
+            _number = number;
+            _firstName = firstName;
         }
 
         public Account(String number, String firstName, TypeEnum accountType)
         {
-            number_ = number;
-            firstName_ = firstName;
-            accountType_ = accountType;
+            _number = number;
+            _firstName = firstName;
+            _accountType = accountType;
         }
 
         public double calculate(Calculator c)
         {
-            interestAccured_ = c.calculate(this);
-            return interestAccured_;
+            _interestAccured = c.calculate(this);
+            return _interestAccured;
         }
         
         public bool isOpen()
         {
-            return status_ == StatusEnum.Open;
+            return _status == StatusEnum.Open;
         }
 
         public Account addName(String name)
         {
-            names_.Add(name);
+            _names.Add(name);
             return this;
         }
         /// private member and getter
-        private String number_;
-        public String Number_
+        private String _number;
+        public String number
         {
             get
             {
-                return number_;
+                return _number;
             }
         }
-        private String firstName_;
-        public String FirstName_
+        private String _firstName;
+        public String firstName
         {
             get
             {
-                return number_;
+                return _firstName;
             }
         }
-        private List<String> names_ = new List<string>();
-        public List<String> Names_
+        private List<String> _names = new List<string>();
+        public List<String> names
         {
             get
             {
-                return names_;
+                return _names;
             }
         }
-        private StatusEnum status_ = StatusEnum.Open;
-        public StatusEnum Status_
+        private StatusEnum _status = StatusEnum.Open;
+        public StatusEnum status
         {
             get
             {
-                return status_;
+                return _status;
             }
         }
-        private TypeEnum accountType_ = TypeEnum.Trading;
-        public TypeEnum AccountType
+        private TypeEnum _accountType = TypeEnum.Trading;
+        public TypeEnum accountType
         {
             get
             {
-                return accountType_;
+                return _accountType;
             }
         }
-        private double interestAccured_;
-        public double InteresstAccured_
+        private double _interestAccured;
+        public double interesstAccured
         {
             get
             {
-                return interestAccured_;
+                return _interestAccured;
             }
         }
     }

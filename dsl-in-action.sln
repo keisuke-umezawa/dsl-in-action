@@ -14,6 +14,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "chapter3_scalar_script", "c
 		{02BA2A70-3E93-412C-96AB-5446636C733E} = {02BA2A70-3E93-412C-96AB-5446636C733E}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcxproj", "{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,6 +72,16 @@ Global
 		{8B94F4E9-86A8-4341-ADFC-3CADDEC4D7F4}.Release|x64.Build.0 = Release|Any CPU
 		{8B94F4E9-86A8-4341-ADFC-3CADDEC4D7F4}.Release|x86.ActiveCfg = Release|Any CPU
 		{8B94F4E9-86A8-4341-ADFC-3CADDEC4D7F4}.Release|x86.Build.0 = Release|Any CPU
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Debug|x64.ActiveCfg = Debug|x64
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Debug|x64.Build.0 = Debug|x64
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Debug|x86.Build.0 = Debug|Win32
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Release|Any CPU.ActiveCfg = Release|Win32
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Release|x64.ActiveCfg = Release|x64
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Release|x64.Build.0 = Release|x64
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Release|x86.ActiveCfg = Release|Win32
+		{3BD1A316-FBE7-40CC-B0AC-9C01B40798EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
