@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv)
 {
-    const dsl::Order o 
+    const dsl::Order o
         = dsl::OrderBuilder()
         .buy(100, "IBM")
         .atLimitPrice(300)

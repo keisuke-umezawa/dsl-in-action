@@ -1,0 +1,18 @@
+---
+# We'll use defaults from the LLVM style, but with 4 columns indentation.
+BasedOnStyle: WebKit
+IndentWidth: 4
+ColumnLimit: 80
+---
+Language: Cpp
+# Force pointers to the type for C++.
+AlignAfterOpenBracket: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortFunctionsOnASingleLine: None
+BreakConstructorInitializersBeforeComma: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+ConstructorInitializerIndentWidth: 0
+KeepEmptyLinesAtTheStartOfBlocks: false
+NamespaceIndentation: All
+TabWidth: 4
+#BraceWrapping: AfterNamespace: false
