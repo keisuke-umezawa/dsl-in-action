@@ -57,6 +57,8 @@
   <ItemGroup>
     <Compile Include="implicit.fsx" />
     <None Include="decorator.fsx" />
+    <None Include="decorator2.fsx" />
+    <None Include="decorator3.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
