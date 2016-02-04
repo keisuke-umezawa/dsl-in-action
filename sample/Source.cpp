@@ -1,3 +1,8 @@
+#include <cmath>
+#include <cmath>
+#include <cstdlib>
+#include <iostream>
+
 #define ROOT(a)                                                                \
     void sqrt(double a)                                                        \
     \
