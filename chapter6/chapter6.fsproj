@@ -5,15 +5,15 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f7ab0d70-efd6-474b-806e-6cceaaa5d03e</ProjectGuid>
+    <ProjectGuid>7b3a05e1-b297-4ced-8807-5c272047b28a</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>chapter4</RootNamespace>
-    <AssemblyName>chapter4</AssemblyName>
+    <RootNamespace>chapter6</RootNamespace>
+    <AssemblyName>chapter6</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>chapter4</Name>
+    <Name>chapter6</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\chapter4.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\chapter6.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -35,7 +35,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\chapter4.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\chapter6.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
@@ -55,14 +55,8 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="implicit.fsx" />
-    <None Include="decorator.fsx" />
-    <None Include="decorator2.fsx" />
-    <None Include="decorator3.fsx" />
-    <None Include="decorator4.fsx" />
-    <None Include="portfolio.fsx" />
-    <None Include="decorator5.fsx" />
-    <None Include="portfolio1.fsx" />
+    <Compile Include="account1.fsx" />
+    <None Include="account2.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
